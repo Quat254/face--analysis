@@ -1,50 +1,50 @@
-# Welcome to your Expo app 👋
-
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
-
-## Get started
-
-1. Install dependencies
-
-   ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Face Analysis Application
+Overview
+The Face Analysis Application is a computer vision project designed to detect and analyze human faces from images or live camera input. The application demonstrates how machine learning and computer vision techniques can be used for real-time facial detection and analysis.
+This project was developed to explore practical applications of artificial intelligence in areas such as security systems, identity verification, and biometric analysis.
+Features
+Real-time face detection
+Image-based facial analysis
+Camera integration for live detection
+Mobile application interface built with Expo
+Efficient processing using computer vision libraries
+Technologies Used
+Python
+OpenCV
+TensorFlow
+JavaScript / React Native
+Expo Framework
+Project Structure
+face-analysis/
+│
+├── app/                Main mobile application code
+├── assets/             Images and static resources
+├── components/         UI components
+├── scripts/            Helper scripts
+└── package.json        Project dependencies
+Installation
+Clone the repository:
+git clone https://github.com/Quat254/face--analysis.git
+cd face--analysis
+Install dependencies:
+npm install
+Start the application:
+npx expo start
+You can run the app using:
+Android Emulator
+iOS Simulator
+Expo Go on a mobile device
+How It Works
+The system captures images through the mobile interface and processes them using computer vision algorithms. OpenCV is used to detect facial features, while machine learning models help improve detection accuracy. The application processes the data and displays detected faces in real time.
+Learning Objectives
+This project helped me develop practical experience in:
+Computer vision techniques
+Machine learning model integration
+Mobile application development with React Native
+Image processing using OpenCV
+Building AI-powered applications
+Future Improvements
+Facial emotion detection
+Face recognition and identification
+Cloud-based model processing
+Performance optimization for real-time analysis
